@@ -632,3 +632,12 @@ img {
 .modal-submit-button:focus {
   background-color: var(--accent-color);
 }
+.contact-form-icon-container {
+  position: relative;
+}
+.contact-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-70%);
+}

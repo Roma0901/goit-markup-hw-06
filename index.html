@@ -450,45 +450,54 @@
           <label class="contact-form-wrapper" for="user-name"
             ><span>Name</span></label
           >
-          <input
-            class="contact-form-input"
-            id="user-name"
-            type="text"
-            name="user_name"
-            required
-            pattern="[a-zA-Z-а-я-А-Я-іІїЇє]+"
-          />
-          <svg class="contact-icon" widht="12" height="12">
-            <use href="./images/icons.svg#person-icon"></use>
-          </svg>
+          <div class="contact-form-icon-container">
+            <input
+              class="contact-form-input"
+              id="user-name"
+              type="text"
+              name="user_name"
+              required
+              pattern="[a-zA-Z-а-я-А-Я-іІїЇє]+"
+            />
+            <svg class="contact-icon" width="24" height="24">
+              <use href="./images/icons.svg#person-icon"></use>
+            </svg>
+          </div>
+
           <label class="contact-form-wrapper" for="user-phone"
             ><span>Phone</span></label
           >
-          <input
-            class="contact-form-input"
-            id="user-phone"
-            type="tel"
-            name="user_phone_number"
-            required
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-            title="xxx-xxx-xx-xx"
-          />
-          <svg class="contact-icon" widht="12" height="12">
-            <use href="./images/icons.svg#phone-icon"></use>
-          </svg>
+          <div class="contact-form-icon-container">
+            <input
+              class="contact-form-input"
+              id="user-phone"
+              type="tel"
+              name="user_phone_number"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+            />
+            <svg class="contact-icon" width="24" height="24">
+              <use href="./images/icons.svg#phone-icon"></use>
+            </svg>
+          </div>
+
           <label class="contact-form-wrapper" for="user-mail"
             ><span>Mail</span></label
           >
-          <input
-            class="contact-form-input"
-            id="user-mail"
-            type="mail"
-            name="user_mail_addres"
-            required
-          />
-          <svg class="contact-icon" widht="12" height="12">
-            <use href="./images/icons.svg#email-icon"></use>
-          </svg>
+          <div class="contact-form-icon-container">
+            <input
+              class="contact-form-input"
+              id="user-mail"
+              type="mail"
+              name="user_mail_addres"
+              required
+            />
+            <svg class="contact-icon" width="24" height="24">
+              <use href="./images/icons.svg#email-icon"></use>
+            </svg>
+          </div>
+
           <label class="contact-form-wrapper" for="user-comment">Comment</label>
           <textarea
             class="contact-form-message"
