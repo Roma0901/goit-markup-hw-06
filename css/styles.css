@@ -752,7 +752,7 @@ img {
   + .contact-form-wrapper-checkbox
   .user-checkbox {
   fill: #ffffff;
-  background-color: #404bbf;
+  background-color: var(--accent-color);
   border: none;
-  border-color: #404bbf;
+  border-color: var(--accent-color);
 }
