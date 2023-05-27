@@ -510,23 +510,22 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="label-container-checkbox">
+          <div class="label-container-checkbox visually-hidden">
             <input
               class="contact-form-input-checkbox"
               type="checkbox"
               name="user-privacy"
-              id="checkbox-privacy"
+              id="user-privacy"
               required
               value="true"
             />
-            <label
-              class="contact-form-wrapper-checkbox"
-              for="checkbox-privacy"
-            ></label>
+            <label class="contact-form-wrapper-checkbox" for="user-privacy">
+              I accept the terms and conditions of the
+              <a class="user-privacy" href=""> Privacy Policy</a>
+              <span class="user-checkbox"></span>
+            </label>
           </div>
 
-          <p class="modal-text">I accept the terms and conditions of the</p>
-          <a class="user-privacy" href="">Privacy Policy</a>
           <button class="modal-submit-button" type="submit">Send</button>
         </form>
       </div>
