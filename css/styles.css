@@ -563,6 +563,10 @@ img {
 .contact-form-wrapper {
   display: block;
   padding-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .contact-form-input {
   width: 100%;
@@ -608,6 +612,9 @@ img {
   color: #8e8f99;
   font-size: 12px;
   line-height: 1.1;
+}
+.label-container {
+  margin-bottom: 8px;
 }
 .user-policy {
   color: #4d5ae5;
