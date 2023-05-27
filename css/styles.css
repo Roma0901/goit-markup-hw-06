@@ -595,11 +595,13 @@ img {
   margin-bottom: 24px;
 }
 .modal-header-text {
-  display: flex;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .modal-text {
   display: inline;
