@@ -672,3 +672,20 @@ img {
 .contact-form-input:focus + .contact-icon {
   fill: #4d5ae5;
 }
+.user-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  fill: transparent;
+}
+.contact-form-input-checkbox:checked + .user-checkbox {
+  fill: tomato;
+  background-color: #404bbf;
+  border: none;
+  border-color: #404bbf;
+}
