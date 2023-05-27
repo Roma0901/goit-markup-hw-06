@@ -606,6 +606,10 @@ img {
 .contact-form-input-checkbox {
   margin-bottom: 24px;
 }
+.visually-hidden {
+  appearance: none;
+  position: absolute;
+}
 .modal-header-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -683,8 +687,10 @@ img {
   cursor: pointer;
   fill: transparent;
 }
-.contact-form-input-checkbox:checked + .user-checkbox {
-  fill: tomato;
+.contact-form-input-checkbox:checked
+  + .contact-form-wrapper-checkbox
+  .user-checkbox {
+  fill: #ffffff;
   background-color: #404bbf;
   border: none;
   border-color: #404bbf;
