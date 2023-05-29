@@ -744,10 +744,11 @@ img {
   cursor: pointer;
   fill: transparent;
 }
-/* .contact-form-input-checkbox:checked
+.contact-form-input-checkbox:checked
   + .contact-form-wrapper-checkbox
   .user-checkbox {
   fill: #ffffff;
   background-color: var(--accent-color);
   border: none;
-  border-color: var(--accent-color); */
+  border-color: var(--accent-color);
+}
